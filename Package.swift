@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -38,13 +38,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATAmazonAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATAmazonAdapter.zip",
-            checksum: "aa6162c566f09de4142c96a9d19c829bf4d6f1a3180e1c28d745bf33e06f88e9"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATAmazonAdapter.zip",
+            checksum: "10e0e7a8c63a203683055a73d9989ded80ec242d672338aee03d38d111995270"
         ),
         .binaryTarget(
             name: "AATDTBiOSSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/DTBiOSSDK.zip",
-            checksum: "850d33acacfdbb5a340f2fc810333a38d014fc41989e3c5f544069c86a0eaed0"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/DTBiOSSDK.zip",
+            checksum: "1149fa65bc46a48901f97d4634734057079e3358e27f2fa9c8a70d120267cd71"
         ),
     ]
 )
